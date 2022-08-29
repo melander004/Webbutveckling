@@ -1,0 +1,38 @@
+table, td{
+    border: 3px solid purple;
+    border-collapse: collapse;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+td, th{
+    width: 200px;
+    height: 150px;
+}
+
+th:nth-child(1){
+    background-color: blue;
+}
+
+tr:nth-child(1){
+    background-color: red;
+}
+
+th:nth-child(2){
+    background-color: black;
+}
+
+tr:nth-child(2){
+    background-color: yellow;
+}
+
+tr:nth-child(3){
+    background-color: green;
+}

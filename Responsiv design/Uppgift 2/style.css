@@ -1,0 +1,22 @@
+body{
+    background-color: cornflowerblue;
+    margin: 0;
+
+    display: grid;
+    grid-template-rows: 100vh;
+    grid-template-columns: 100vw;
+    grid-template-areas: 
+    "main";
+}
+
+main{
+    grid-area: main;
+
+    display: block;
+    margin: 0 auto;
+    background-color:yellow;
+    width: 100vh;
+    height: 100vh;
+    border-radius: 50%;
+    
+}
